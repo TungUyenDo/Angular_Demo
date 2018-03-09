@@ -2,5 +2,7 @@
 
 (function () {
     'use strict';
-    angular.module('ungdungdautien', []);
+    angular.module('ungdungdautien', [
+        'ngStorage' //storage lưu trữ dữ liệu
+    ]);
 })();
